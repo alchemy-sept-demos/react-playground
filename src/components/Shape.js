@@ -1,10 +1,6 @@
-import React, { useState } from 'react'
 import './Shape.css'
 
-export default function Shape() {
-  const [color, setColor] = useState('red')
-  const [type, setType] = useState('square')
-
+export default function Shape({ color, type, setColor, setType }) {
   const classes = `shape ${color} ${type}`
   return (
     <>
