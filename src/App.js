@@ -13,7 +13,7 @@ import cow from './cow.png'
 
 function App() {
   return (
-    <div className="App" style={{ backgroundImage: `url(${cow})`, color: 'red' }}>
+    <div className="App">
       <h1>Welcome to My Shapes </h1>
       {/* <Shape type="circle" color="red" />
       <Shape type="square" color="blue" />
@@ -22,7 +22,7 @@ function App() {
         <Shape key={shape.id} type={shape.type} color={shape.color} />
       ))}
       {/* <img height="100" src={cow} alt="cow" /> */}
-      <img height="100" src={`${process.env.PUBLIC_URL}/dog.jpeg`} />
+      {/* <img height="100" src={`${process.env.PUBLIC_URL}/dog.jpeg`} /> */}
     </div>
   )
 }

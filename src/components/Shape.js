@@ -10,7 +10,7 @@ export default function Shape(props) {
       <div className={classes}>
         This is a {props.color} {props.type}
       </div>
-      <img height="100" src={`${process.env.PUBLIC_URL}/shapes/happy-${props.type}.jpeg`} />
+      {/* <img height="100" src={`${process.env.PUBLIC_URL}/shapes/happy-${props.type}.jpeg`} /> */}
     </>
   )
 }
